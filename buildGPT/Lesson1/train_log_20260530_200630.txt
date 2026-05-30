@@ -1,0 +1,391 @@
+nvidia-smi:
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.161.07             Driver Version: 535.161.07   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA GeForce RTX 4090        Off | 00000000:21:00.0 Off |                  Off |
+| 30%   49C    P2             182W / 450W |   4117MiB / 24564MiB |     56%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|    0   N/A  N/A   3388605      C   ...niconda3/envs/DP-SFT_new/bin/python     4100MiB |
+|    0   N/A  N/A   3676210      G   /usr/lib/xorg/Xorg                            4MiB |
++---------------------------------------------------------------------------------------+
+
+============================================================
+Training started at: 2026-05-30 20:06:31
+Log file: train_log_20260530_200630.txt
+Device: cuda
+Model parameters: 10.789M
+Hyperparameters:
+  batch_size = 64
+  block_size = 256
+  n_embd     = 384
+  num_heads  = 6
+  n_layer    = 6
+  dropout    = 0.2
+  max_iters  = 5000
+  lr         = 0.0003
+------------------------------------------------------------
+step     0 | train loss 4.2848 | val loss 4.2824 | elapsed     7.4s
+step   500 | train loss 1.8864 | val loss 2.0036 | elapsed    48.4s
+step  1000 | train loss 1.5372 | val loss 1.7211 | elapsed    89.3s
+step  1500 | train loss 1.3954 | val loss 1.6105 | elapsed   144.4s
+step  2000 | train loss 1.3079 | val loss 1.5445 | elapsed   204.7s
+step  2500 | train loss 1.2494 | val loss 1.5145 | elapsed   265.4s
+step  3000 | train loss 1.2009 | val loss 1.4963 | elapsed   326.4s
+step  3500 | train loss 1.1581 | val loss 1.4803 | elapsed   387.1s
+step  4000 | train loss 1.1241 | val loss 1.4824 | elapsed   448.5s
+step  4500 | train loss 1.0857 | val loss 1.4747 | elapsed   509.7s
+step  5000 | train loss 1.0519 | val loss 1.4845 | elapsed   570.7s
+------------------------------------------------------------
+Training finished. Total time: 570.8s  (9.51 min)
+============================================================
+Generated sample:
+
+
+LUCENTIO:
+'Tis too know, good'st son. And beseech your voice
+Bourn Romeo.
+
+LUCIO:
+Now, beseech your poor groan! how shall
+By old woman e'er length holdsoomary proud:
+Happy are a sun to file a plague!
+
+LADY CAPULET:
+Are you abstrong one duty as live,
+Small and enfold said: if we hear not, to show them!
+
+JULET:
+Come, senators: what the blement
+Words will do you!
+
+CAMILLO:
+Ay, let me feel your choice:
+Untime grave speak, in the king, Roman both of my fiar;
+This hath thrust to the next body in the state
+With spurs of her step, glass will rejoice
+Purchmpting; warrant against with a napl and
+So, our motion, our instructing and
+Time, how it; one would you have not: cannot thee,
+With sweet in me so; to the glad and guess
+At once so many title
+One that in the time own with chafes roar. I'ld impose
+That bear your place, sir, grance and most kindly,
+Tender you not against them gentlemence:
+Upon the sevening gross; and, say 'tis daughter,
+Not by calls, no day as sit so'r; bastarch
+For well they fishly: hearing these queens
+Well-weapons, would they ad talk it. they not
+Be it so, that think you'll buy him I rage:
+He should wis his noble traintles still him there,
+Did make a virtuour love, should mean me to
+From fortune by then to one the beauteous sumperflies
+Fall, and let me both our trumpets of its.
+
+CORIOLANUS:
+I should not before that.
+
+CORIOLANUS:
+No, away; but you went but of your honour,
+I have perceived to me, sir. Had now
+That's but bound your indiffery, your pleasure,
+Your own descending pew
+And help shake till tear now this fflesh will heam
+Hence; bi me sper upon my truth, I'ld away.
+
+ESCALUS:
+Ha's I wife to Rome before. But speak, the five.
+
+EXETER:
+So murderstant proceed the Volscasacites;
+Were you should be by so fearfly impodernment,
+Which with winds her, your own bids not;
+I never lift but conceit with a baggar,
+One to my as go with me to transple;
+So much I even stread feel swell and sleep,
+Clisting to the keys nothing and truthers. Surely of wear
+And wec himself and revenge and hell!
+I say now swearing ones, thou are not rest
+Like to the queen of the bishop of your son:
+A dear, pright nod! What lighther man let him have a
+better grace of day throw intelligence, and to lose a fear. Hark!
+I that e'er the course who, may it in a
+have said the castless night. But, coy the other's time
+were to his compassion. This world not human
+will this our searer world we were adversary
+to thank the sea--or honour and awake his nature, fly; the
+though told me, there there, by lagging prid,
+step with thee to fear men ignorant that weeps again
+famal those prevent swormant ball ignorance, drunk their twice,
+and they never to strengthen and place in angry
+true to grown the pale: well we are so accurse
+upon in a man that distress of caims science
+shoulder unfound; which stood une
+you arm with downright sleep. Dighton some,
+the people and upon me, good poor Clarence to queen.
+
+COriolanus, to wave the followers and awaker.
+
+Second Servant:
+Stay but Englishman:
+Fools we have loggest a bold boys and changers
+are destroymen once. By all that close, besiness,
+he's as appear, for where's come, and I tell you weep.
+
+Son:
+Soleman:
+I then, Peter, come, know me to you.
+
+Shirrah, go;
+White--
+
+AUFIUS:
+Though I hadst been be content: may she show,
+Let him, I know him go all hear, he had got
+the ribbone of the bestremony.
+
+DUKE VINCENTIO:
+Do you not, I have but been very. O, it can be
+could you soon him but the gates of this one.
+
+ANGELO:
+He bear him out that a talcover
+betred whose coldly prone: upon a kind
+the troops-friend follower in the goosest grace; ap
+strengths for the soldier thoughs. Be quickly one,
+It is with calls and lay in heaven, if a while!
+
+ALLISABELLA:
+No, be not pronounce your stiffer in such fits?
+
+FLORIZEL:
+Therein struck, not thou hast caddler fitted forth,
+Let the traitor of itself hath made itself.
+
+CAMILLO:
+O great bent!
+Marry, Tranio, that he had by ell of the constage:
+Having made these tenderning her atterning
+oman shows my groaments and shallek'd me:
+Tranio you for all a fish, I see,
+Had bad, haddled at elder it terrest.
+
+LEONTES:
+O, his my souls in this house, I am light not to be
+A sice ofference, and by the shore--gavish'd,
+Have some scorn me the corrrow.
+
+HERMIONE:
+Come on! Shall I want down it good un;
+That stay it shall be commandition, sir; but I
+It is your hill for so?
+
+LEONTES:
+I weigh myself,
+And I thank, that news i' the gross fall
+To those batte enmity by this eye
+Be conquers dissolation.
+
+CAMILLO:
+Fear me, sir, he is excellented that prince, that
+My sir thrus is not flattering from her; but they
+Lies not take such men it but up your hig.
+
+BENVOLIO:
+Good Rob Caius!
+
+RATHARD:
+No, it lie.
+
+POLIXENES:
+True that we not a light.
+
+PRINCE EDWARD:
+Marry, calcor, a husband; a man-blood thou hast
+Which you we wept do meet with our deastly.
+
+DUCHIDIO:
+As let your indocth, pample
+Who have been thed with our bloods robd mouth,
+On thus mock rode on her your hate.
+Be protector, girl; no young so, green you weary
+Of the ready that you'll had hence, shall be slily
+By may be stoon. I muddle: I would I say,
+As sweet too unhappy by this money, too dear me,
+And there by consul, so she
+As we'll do them hence; I love no need honors;
+Or belones in thee, seech remedy and best
+I have been it becomes me not from dead.
+
+BAGOLO:
+What stand thus, madace him my behalf be placed?
+To--speak the tonguing banishments men's clout--
+Heaven now, and because their majestary,
+Well not how we leave your tongue
+But not to shape them flies.
+
+BENVOLIO:
+To have heavy down with your mind.
+
+ABHORSON:
+Fear your few well: there is much
+This despassed held children seal'd droop's point,
+And shalt proud chamb the hard born: dark these banch,
+Yet city hath last his been at the blood woe.
+You are general tempes, I'ld call the Aufidius
+Aganon in his ground.
+
+LEONTES:
+We met'd him teed, undone.
+
+LADY CAPULET:
+No, by teach me I may; speak it, I accouragen;
+But some careles. Thou upon thy
+struct do your holp throne; change unto
+From himself we could be,--though it to be--
+So say to wetch,--
+
+CAMILLO:
+And--
+Your trumperous wondering lawful lead
+To like a prisoner of good's purpose.
+
+AUFIDIUS:
+Away you to what the Capulitomer
+Have not some done; but so by the nobed
+I know a shadow your daughter's ruin. For
+I know, and such being tonguish out his most wedies
+To have been standernesss; ther nightifully gabes,
+That the multing sacred by the traitor;
+For but, 'tis not but trusty the princely,
+And I'll set away a frellow may barr'd;
+Th they was hand at the king; 'twickets one,
+By truly as the past whose sister oath, there give;
+Let them a quay with them followers a
+sir; thence with reverence bloody terrows,
+Were we the two have wish'd tongueless me oppropher,
+Accounted day, which mostag's place! thousant,
+If you says like sweeter law, your father,
+That let his harbour words and movest gold
+The lasies an olly are lend may which hedful means,
+I am a hollow; and from that you might hang it,
+So plain I' thus shall put upon informaticow--
+SLY, which haste mew'd myself against myself,
+And initely the neal, nor to rogue summer,
+By a man an else, all they one thing with tears,
+Here is married smooes for her with a rier
+And the sweet. And, forgive,
+Do spark upon this, peace it love them and
+I cannot fire: I cannother; therefore strike,
+How each unwe the need and hearse to effe
+The bed from the rose of us
+Enviood to Cherisbur wmits her by the traitor,
+She is strange the purpose, but recree. I did request,
+O nod, as as yours reposed in evil,
+I warrant your state us,--
+
+LEONTES:
+We have seen the grave so
+The content.
+But comes your frown, he would comes you:
+You have half a king
+For to utly bear'st unboar-sweet;
+That yet the enemy add intickler:
+My gat may rustre for and the harm of nose
+Sigh Appell's plot sits: aged chemish,
+And from one time as I will far
+But now are Bagot.
+
+CAPULYO:
+No, my liege.
+
+HENRY BOLINGBROKE:
+
+KING RICHARD II:
+Such minstress your grace hatred on my time;
+And a frown sorror babe to-night
+Plaud of your king, in to rejourn be revived:
+Your hands to win the virtue only soul
+Wise that murder with wrongs ware your children's knees
+With loves of strong,
+When in ruth not what you have go lived in need,
+Hereaved the close and more can it, imposition.
+I give you him.
+
+QUEEN MARGARET:
+Think, not bring compossible bold to sear
+Against up the melanch crown, nor kind to bear
+What so hate I am homicit-glace hard for him;
+And where he is behindeth'd and room soul's
+As this would break upon Norfollow.
+
+Provost:
+For would the limit of whom after which is letter,
+When since you end him disposition with a grow;
+And salter or strang argry fegos; list
+Our foe and plengthwarness can self awakes
+And glisters faster shores do scarce me Duke of York;
+With a nurse, and towardy a traitors that
+Witting both toads not one things;
+And, mark adieu.
+
+JULIET:
+
+ROMEO:
+If I are a weary blest wid wester spent,
+The emplang blows sicken: yet I do but I saw.
+
+ROMEO:
+Then could notesday all whose searcing suck.
+
+SIR SHMERSET:
+
+JOHN OF GORY:
+O Northumberland, that Hastings bear than great is then
+To do the stroke forth.
+
+SHONT:
+Go, ever--
+
+BRAKENBURY:
+How joint in long grace!
+
+JULIET:
+This dead this is male! deliver!
+
+RATCLIFF:
+Nay not Clifford's good, poor:
+What hath you known to the kong?
+What all ob our Capulets?
+
+RIVERS:
+Then stale fathour shall be secret,
+Bid him so preceivise; to sigh him within him;
+There were returns oo Floving lips,
+Eech he did lay them down time speak not,
+Which we have his weaster haste so him withal!
+Come, brind me as my husband's side, we'll prove,
+Opromised the stew lority; blenchy, from paints;
+I shall be couding; but as the rest, thy life,
+Though she prayses in, the medal, thy find of me.
+Nor Courage, pudge, to do read thee, nor hey fear;
+Bour, a supple loarner, for 'tis the winther;
+And so how I must deliver it; and there serves
+He hollows to seeks far loves.
+
+MENENIUS:
+There's good.
+
+MENENENIUS:
+The next weeds the war:
+The corns is then has been bore him n
