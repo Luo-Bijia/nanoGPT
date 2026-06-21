@@ -2,7 +2,7 @@
 
 tokenizer也有自己的训练集（不要求与LLM的一致），在预处理阶段通过BPE算法进行训练。
 
-![image-20260602204206500](C:\Users\Law B J\AppData\Roaming\Typora\typora-user-images\image-20260602204206500.png)
+![image-20260602204206500](arch-tokenizer.png)
 
 本质上是一个raw text到token sequence的转换层，向上执行encode操作，向下执行decode操作。
 
